@@ -78,6 +78,8 @@ function draw() {
   console.log("this is ", gameState);
 
   if (gameState === PLAY) {
+    gameOver.visible = false;
+    restart.visible = false;
     //move the ground
     ground.velocityX = -4;
     //scoring
