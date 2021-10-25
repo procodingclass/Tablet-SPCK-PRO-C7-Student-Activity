@@ -1,3 +1,3 @@
-# Tablet-SPCK-PRO-C7-Student-Activity
+# Tablet-SPCK-PRO-C16-Student-Activity
 
 Student Activity
