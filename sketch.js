@@ -72,9 +72,6 @@ function setup() {
 function draw() {
   background(180);
 
-  //displaying score
-  text("Score: " + score, 500, 50);
-
   console.log("this is ", gameState);
 
   if (gameState === PLAY) {
@@ -82,8 +79,6 @@ function draw() {
     restart.visible = false;
     //move the ground
     ground.velocityX = -4;
-    //scoring
-    score = score + Math.round(frameCount / 60);
 
     if (ground.x < 0) {
       ground.x = ground.width / 2;
